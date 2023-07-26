@@ -1,0 +1,114 @@
+
+    body {
+        background: #4f4f4f;
+        font-family: 'IBM Plex Serif', serif;
+    }
+    
+    .h-large {
+        text-align: center;
+        color: #a118b9;
+        margin: 80px auto 40px;
+        font-size: 32px;
+    }
+    
+    .menu {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        padding-top: 8px;
+        padding-bottom: 14px;
+    }
+    
+    .menu li {
+        margin: auto;
+        padding: auto+36px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #99062f;
+    }
+    
+    a:hover {
+        color: #680891;
+    }
+    
+    .wrap {
+        display:flexbox ;
+        width: 100%;
+        margin: auto 21px;
+        justify-content: center;
+        align-items: center;
+        background: #af8c96;
+    }
+    
+    .card-wrap {
+        display: grid;
+        gap: 24px;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+    
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        background-color: #eeeeee;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: auto;
+        
+        
+        width: 80%;
+    }
+    
+    .card-image {
+        width: 300px;
+        height: 300px;
+        margin: 0 auto; /* Added to center the image */
+        margin-bottom: 10px;
+    }
+    .card-image1 {
+        width: 300px;
+        height: 600px;
+        margin: 0 auto; /* Added to center the image */
+        margin-bottom: 10px;
+    }
+    
+    .card-title {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    
+    .card-description {
+        font-size: 16px;
+        text-align: center;
+        color: #555555;
+    }
+    
+    @media screen and (max-width: 768px) {
+        h1 {
+            color: #555555;
+        }
+    
+        body {
+            background-color: rgb(124, 96, 146);
+        }
+    
+        .h-large {
+            text-align: center;
+            margin: 80px auto 40px;
+            font-size: 24px;
+        }
+    
+        .card {
+            width: 100%;
+        }
+    
+        .card-image {
+            width: 100%; /* Adjusted for responsiveness on smaller screens */
+        }
+    }
+  

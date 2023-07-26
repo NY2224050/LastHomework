@@ -1,0 +1,89 @@
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image:"hrj_.png";
+    
+
+}
+
+
+.Area{
+    background-color: rgb(163, 129, 197);
+    max-width: auto;
+    max-height:fit-content;
+    margin: auto 24px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.Mydate{
+
+    font-family: 'IBM Plex Serif', serif;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+
+    margin: auto;
+    text-decoration: none;
+    list-style: none
+    
+    
+    
+ 
+}
+
+.menu li{
+    
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.card-image{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:480px) {
+
+    h1 {
+        color: #555555;
+    }
+
+    body {
+        background-color: rgb(124, 96, 146);
+    }
+
+    .h1 {
+        text-align: center;
+        margin: 80px auto 40px;
+        font-size: 24px;
+    }
+
+    .card {
+        flex-basis: 100%;}
+
+    .menu {
+        align-items: center;
+        justify-content: center;
+            text-align: center;
+            text-decoration: none;
+            list-style: none
+            
+            
+        }
+    
+}
